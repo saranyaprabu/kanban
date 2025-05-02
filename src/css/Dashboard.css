@@ -1,10 +1,26 @@
 
+/* Make sure html and body take full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;  /* Full height of the viewport */
+  width: 100%;   /* Full width of the viewport */
+}
+
+/* Container should take the full height of the screen */
 .kanban-board-container {
-    padding: 40px; 
-    background-color: #c9e9f6;
-  }
-  
-  
+  padding: 40px;
+  background-color: #c9e9f6;
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure the kanban board itself is filling available space */
+.kanban-board {
+  flex-grow: 1;  /* Allow the board to grow and fill available space */
+}
+
   .dashboard-heading {
     text-align: center;
     color: #0a2472;
