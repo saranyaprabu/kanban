@@ -1,36 +1,5 @@
 {
-  "book": [
-    {
-      "id": "1",
-      "tite": "Book 1",
-      "author": "author 1"
-    },
-    {
-      "id": "2",
-      "tite": "Book 2",
-      "author": "author 2"
-    },
-    {
-      "id": "3",
-      "tite": "Book 3",
-      "author": "author 3"
-    }
-  ],
-  "contact": [
-    {
-      "id": "1",
-      "name": "Book 2",
-      "contact": "1212121",
-      "mail": "a@gmail.com",
-      "email": "assasa"
-    },
-    {
-      "id": "0aa9",
-      "name": "sathisha",
-      "contact": "121212",
-      "email": "sathish@gmail.com"
-    }
-  ],
+ 
   "task": [
     {
       "id": "88fd",
